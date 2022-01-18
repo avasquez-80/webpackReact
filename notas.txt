@@ -1,0 +1,23 @@
+// Instalar react ---- para ver paquetes npm instalados en el proyecto npm ls --depth=0
+1.- "npm install react react-dom -S"
+2.- activar licencia MIT en el package.json para que react funcione correctamente "licence": "MIT"
+3.- crear la esctrutura de carpetas para el proyecto para trabajar con react (src->components->App.jsx  & src->index.js)
+4.- crear los puntos de entrada en el index.js (import)
+5.- instalar babel "npm install @babel/core @babel/preset-env @babel/preset-react babel-loader -D"
+// npm install -D @babel/core @babel/preset-env @babel/preset-react babel-loader
+6.- crear archivo .babelrc para que babel funcione correctamente
+7.- instalar webpack "npm install -D webpack webpack-cli webpack-dev-server"
+8.- crear el archivo de configuracion webpack.config.js
+9.- instalar html-webpack-plugin y html-loader "npm install html-webpack-plugin html-loader -D"
+10.- crear el script para que webpack funcione correctamente en el package.json
+11.- correr el servidor
+//css
+12.- instalar mini css extract plugin, css loader, style loader, sass y sass loader "npm install mini-css-extract-plugin css-loader style-loader sass sass-loader -D"
+13.- configurar el webpack.config.js para que funcione correctamente
+14.- crear la carpeta styles y el archivo global.scss (sass)
+15.- importar styles a index.js
+//optimizando el codigo para produccion
+16.- instalar css minimizer, terser webpack plugin, clean webpack plugin "npm i css-minimizer-webpack-plugin terser-webpack-plugin clean-webpack-plugin -D"
+17.- crear webpack para desarrollo
+18.- modificar webpack para produccion con la optimizacion
+19.- crear el script para que webpack funcione correctamente en el package.json
